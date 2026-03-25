@@ -36,12 +36,12 @@ export default function NavAppBar() {
         <Container maxWidth="lg">
           <Toolbar>
             <Typography variant="h6" className={classes.logo}>
-              <a href="/">
-                <img src="/assets/images/logo_new.png" alt="logo" width="40" />
+              <a href="/hat-sh/">
+                <img src="/hat-sh/assets/images/logo_new.png" alt="logo" width="40" />
               </a>
             </Typography>
 
-            <Button color="inherit" href="/about/" className={classes.button}>
+            <Button color="inherit" href="/hat-sh/about/" className={classes.button}>
               {t("about")}
             </Button>
             

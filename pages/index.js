@@ -28,7 +28,7 @@ const Home = () => {
     //register service worker
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker
-        .register("service-worker.js")
+        .register("/hat-sh/service-worker.js")
         .then((reg) => {
           reg.update();
           setSwReg(true);

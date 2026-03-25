@@ -332,12 +332,12 @@ export default function About(props) {
             <Toolbar>
 
               <Typography variant="h6" className={classes.logo}>
-                <a href="/">
-                  <img src="/assets/images/logo_new.png" alt="logo" width="40" />
+                <a href="/hat-sh/">
+                  <img src="/hat-sh/assets/images/logo_new.png" alt="logo" width="40" />
                 </a>
               </Typography>
 
-              <Button color="inherit" href="/" className={classes.button}>
+              <Button color="inherit" href="/hat-sh/" className={classes.button}>
                 {t('home')}
               </Button>
 

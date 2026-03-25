@@ -550,7 +550,7 @@ const LimitedEncryptionPanel = () => {
 
   const createShareableLink = async () => {
     let pk = await computePublicKey(PrivateKey);
-    let link = window.location.origin + "/?tab=decryption&publicKey=" + pk;
+    let link = window.location.origin + "/hat-sh/?tab=decryption&publicKey=" + pk;
     setShareableLink(link);
   };
 
@@ -597,7 +597,7 @@ const LimitedEncryptionPanel = () => {
           style={{ color: "#fff", textAlign: "center" }}
         >
           <img
-            src="/assets/images/logo_new.png"
+            src="/hat-sh/assets/images/logo_new.png"
             width="100"
             height="100"
             alt="hat.sh logo"

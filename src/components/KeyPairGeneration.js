@@ -127,7 +127,7 @@ const KeysGeneration = (props) => {
         </Typography>
 
         <Hidden xsDown>
-          <a href="/about/#why-need-private-key" target="_blank">
+          <a href="/hat-sh/about/#why-need-private-key" target="_blank">
             <Typography variant="caption" className={classes.keyCaption}>
               {t('why_need_private_key')}
             </Typography>

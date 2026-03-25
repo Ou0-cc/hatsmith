@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <title>
           {`Hatsmith - ${t("sub_title")}`}
         </title>
-        <link rel="icon" href="/assets/images/logo_new.png" />
+        <link rel="icon" href="/hat-sh/assets/images/logo_new.png" />
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,6 +37,7 @@ function MyApp({ Component, pageProps }) {
           content="#1c1c1c"
           media="(prefers-color-scheme: dark)"
         />
+        <meta name="darkreader-lock" />
       </Head>
       <ThemeProvider theme={Theme}>
         <Component {...pageProps} />

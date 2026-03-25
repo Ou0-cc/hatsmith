@@ -296,7 +296,7 @@ export default function Footer() {
                 target="_blank"
               >
                 <img
-                  src="/assets/icons/ko-fi.png"
+                  src="/hat-sh/assets/icons/ko-fi.png"
                   width="200"
                   alt="open collective"
                 ></img>

@@ -33,7 +33,7 @@ const QuickResponseCode = (props) => {
   const [open, setOpen] = useState(false);
 
   let url =
-    window.location.origin + "/?tab=encryption&publicKey=" + props.publicKey;
+    window.location.origin + "/hat-sh/?tab=encryption&publicKey=" + props.publicKey;
 
   const handleClickOpen = () => {
     setOpen(true);
